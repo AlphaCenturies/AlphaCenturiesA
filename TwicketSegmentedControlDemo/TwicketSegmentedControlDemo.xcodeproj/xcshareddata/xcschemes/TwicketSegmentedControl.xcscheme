@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C18581821D8D7220001A9A00"
+            BuildableName = "TwicketSegmentedControlDemo.app"
+            BlueprintName = "TwicketSegmentedControlDemo"
+            ReferencedContainer = "container:TwicketSegmentedControlDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C185819C1D8D7237001A9A00"
-            BuildableName = "TwicketSegmentedControl.framework"
-            BlueprintName = "TwicketSegmentedControl"
+            BlueprintIdentifier = "C18581821D8D7220001A9A00"
+            BuildableName = "TwicketSegmentedControlDemo.app"
+            BlueprintName = "TwicketSegmentedControlDemo"
             ReferencedContainer = "container:TwicketSegmentedControlDemo.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
