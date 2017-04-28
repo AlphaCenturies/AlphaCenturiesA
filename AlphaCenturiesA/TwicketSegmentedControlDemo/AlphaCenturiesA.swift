@@ -1,9 +1,11 @@
 //
-//  AlphaCenturiesA.swift
+//  AphaCenturiesA.swift
+//  AlphaCenturiesA
 //
-//  Created by Ruoyu Su on 17/09/16.
+//  Created by Erick Su on 4/28/17.
 //  Copyright © 2017 AlphaCenturies. All rights reserved.
 //
+
 
 import UIKit
 import TwicketSegmentedControl
@@ -107,6 +109,7 @@ class AlphaCenturiesA: UIViewController {
         
     }
     
+    // End of viewdidload
 
     
     

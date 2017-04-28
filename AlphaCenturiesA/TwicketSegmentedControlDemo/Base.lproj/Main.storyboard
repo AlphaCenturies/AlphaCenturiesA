@@ -26,5 +26,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Apha CenturiesA Schedule-->
+        <scene sceneID="hBc-Nx-mH5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vt4-NK-3JI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="p01-Gd-cqa" customClass="AphaCenturiesASchedule" customModule="AlphaCenturiesA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Otk-wd-wtb"/>
+                        <viewControllerLayoutGuide type="bottom" id="VLx-ye-NZW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YnX-9Z-Zl1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="474" y="65"/>
+        </scene>
     </scenes>
 </document>
