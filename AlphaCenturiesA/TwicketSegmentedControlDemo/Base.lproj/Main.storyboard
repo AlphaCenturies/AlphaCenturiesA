@@ -24,11 +24,12 @@
                     </view>
                     <connections>
                         <segue destination="p01-Gd-cqa" kind="modal" identifier="SegueToSchedule" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="FV2-9E-nEu"/>
+                        <segue destination="vTH-Jq-n26" kind="modal" identifier="goToC" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sTZ-gl-753"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="57" y="818"/>
+            <point key="canvasLocation" x="289" y="833"/>
         </scene>
         <!--Alpha CenturiesA Schedule-->
         <scene sceneID="hBc-Nx-mH5">
@@ -46,11 +47,39 @@
                     <navigationItem key="navigationItem" id="DQy-CX-7JW"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="modal" identifier="showTheMap" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="0xp-4W-hdf"/>
+                        <segue destination="vTH-Jq-n26" kind="modal" identifier="showThePerfect" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ESu-Lf-dKa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vt4-NK-3JI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="474" y="65"/>
+            <point key="canvasLocation" x="770" y="77"/>
+        </scene>
+        <!--Alpha CenturiesA Perfect-->
+        <scene sceneID="CBi-gY-GPN">
+            <objects>
+                <viewController id="vTH-Jq-n26" customClass="AlphaCenturiesAPerfect" customModule="AlphaCenturiesA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QGL-dv-KKi"/>
+                        <viewControllerLayoutGuide type="bottom" id="daq-45-p6V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hZE-b3-XcV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="p01-Gd-cqa" kind="modal" identifier="backToB" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Vqk-n6-xb8"/>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="backToA" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="i0n-3Y-83A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k7V-r9-uxu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186" y="77"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="FV2-9E-nEu"/>
+        <segue reference="0xp-4W-hdf"/>
+        <segue reference="sTZ-gl-753"/>
+    </inferredMetricsTieBreakers>
 </document>

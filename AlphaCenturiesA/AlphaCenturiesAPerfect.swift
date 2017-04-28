@@ -1,5 +1,5 @@
 //
-//  AphaCenturiesASchedule.swift
+//  AphaCenturiesAPerfect.swift
 //  AlphaCenturiesA
 //
 //  Created by Erick Su on 4/28/17.
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import TwicketSegmentedControl
 
-class AlphaCenturiesASchedule: UIViewController {
+class AlphaCenturiesAPerfect: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,7 @@ class AlphaCenturiesASchedule: UIViewController {
         segmentedControl.delegate = self
         
         //mannualy move the selection into index
-        segmentedControl.move(to: 1)
+        segmentedControl.move(to: 2)
         
         // set transparence back ground
         segmentedControl.backgroundColor = UIColor.white.withAlphaComponent(0)
@@ -60,7 +60,7 @@ class AlphaCenturiesASchedule: UIViewController {
         
         let margin = view.layoutMarginsGuide
         
-
+        
         
         // set the togglebar auto constraints as false
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
@@ -77,7 +77,7 @@ class AlphaCenturiesASchedule: UIViewController {
         NSLayoutConstraint.activate([segLeftC,segRightC,segBotC,segHeightC])
         
         
-         /******************Same as AlphaCenturiesA End********************/
+        /******************Same as AlphaCenturiesAPerfect End********************/
         
     }
     
@@ -85,7 +85,7 @@ class AlphaCenturiesASchedule: UIViewController {
     
     
     
-     /******************UI Same As AlphaCenturiesA********************/
+    /******************UI Same As AlphaCenturiesAPerfect********************/
     // detect rotation of the screen
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape {
@@ -108,17 +108,17 @@ class AlphaCenturiesASchedule: UIViewController {
 
 /******************Prepare for tansistion********************/
 // do something while click on button of toggle
-extension AlphaCenturiesASchedule: TwicketSegmentedControlDelegate {
+extension AlphaCenturiesAPerfect: TwicketSegmentedControlDelegate {
     func didSelect(_ segmentIndex: Int) {
         
         print("Selected index: \(segmentIndex)")
         if(segmentIndex==0){
-            performSegue(withIdentifier: "showTheMap", sender: self)
-        }else if(segmentIndex==2){
-            performSegue(withIdentifier: "showThePerfect", sender: self)
+            performSegue(withIdentifier: "backToA", sender: self)
+        }else if(segmentIndex==1){
+            performSegue(withIdentifier: "backToB", sender: self)
         }
-
+        
     }
     
-/*******************tansistion End********************/
+    /*******************tansistion End********************/
 }

@@ -155,6 +155,8 @@ extension AlphaCenturiesA: TwicketSegmentedControlDelegate {
         print("Selected index: \(segmentIndex)")
         if(segmentIndex==1){
             performSegue(withIdentifier: "SegueToSchedule", sender: self)
+        }else if(segmentIndex==2){
+            performSegue(withIdentifier: "goToC", sender: self)
         }
     }
 }
