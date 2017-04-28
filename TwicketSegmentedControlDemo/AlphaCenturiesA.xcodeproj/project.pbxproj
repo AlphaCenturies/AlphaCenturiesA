@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C18581871D8D7220001A9A00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581861D8D7220001A9A00 /* AppDelegate.swift */; };
-		C18581891D8D7220001A9A00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581881D8D7220001A9A00 /* ViewController.swift */; };
+		C18581891D8D7220001A9A00 /* AlphaCenturiesA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581881D8D7220001A9A00 /* AlphaCenturiesA.swift */; };
 		C185818C1D8D7220001A9A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C185818A1D8D7220001A9A00 /* Main.storyboard */; };
 		C185818E1D8D7220001A9A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C185818D1D8D7220001A9A00 /* Assets.xcassets */; };
 		C18581911D8D7220001A9A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C185818F1D8D7220001A9A00 /* LaunchScreen.storyboard */; };
@@ -45,9 +45,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C18581831D8D7220001A9A00 /* TwicketSegmentedControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwicketSegmentedControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18581831D8D7220001A9A00 /* AlphaCenturiesA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphaCenturiesA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18581861D8D7220001A9A00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C18581881D8D7220001A9A00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C18581881D8D7220001A9A00 /* AlphaCenturiesA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaCenturiesA.swift; sourceTree = "<group>"; };
 		C185818B1D8D7220001A9A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C185818D1D8D7220001A9A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18581901D8D7220001A9A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		C185817A1D8D7220001A9A00 = {
 			isa = PBXGroup;
 			children = (
-				C18581851D8D7220001A9A00 /* TwicketSegmentedControlDemo */,
+				C18581851D8D7220001A9A00 /* AlphaCenturiesA */,
 				C185819E1D8D7237001A9A00 /* TwicketSegmentedControl */,
 				C18581841D8D7220001A9A00 /* Products */,
 			);
@@ -91,22 +91,23 @@
 		C18581841D8D7220001A9A00 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C18581831D8D7220001A9A00 /* TwicketSegmentedControlDemo.app */,
+				C18581831D8D7220001A9A00 /* AlphaCenturiesA.app */,
 				C185819D1D8D7237001A9A00 /* TwicketSegmentedControl.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C18581851D8D7220001A9A00 /* TwicketSegmentedControlDemo */ = {
+		C18581851D8D7220001A9A00 /* AlphaCenturiesA */ = {
 			isa = PBXGroup;
 			children = (
 				C18581861D8D7220001A9A00 /* AppDelegate.swift */,
-				C18581881D8D7220001A9A00 /* ViewController.swift */,
+				C18581881D8D7220001A9A00 /* AlphaCenturiesA.swift */,
 				C185818A1D8D7220001A9A00 /* Main.storyboard */,
 				C185818D1D8D7220001A9A00 /* Assets.xcassets */,
 				C185818F1D8D7220001A9A00 /* LaunchScreen.storyboard */,
 				C18581921D8D7220001A9A00 /* Info.plist */,
 			);
+			name = AlphaCenturiesA;
 			path = TwicketSegmentedControlDemo;
 			sourceTree = "<group>";
 		};
@@ -137,9 +138,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C18581821D8D7220001A9A00 /* TwicketSegmentedControlDemo */ = {
+		C18581821D8D7220001A9A00 /* AlphaCenturiesA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C18581951D8D7220001A9A00 /* Build configuration list for PBXNativeTarget "TwicketSegmentedControlDemo" */;
+			buildConfigurationList = C18581951D8D7220001A9A00 /* Build configuration list for PBXNativeTarget "AlphaCenturiesA" */;
 			buildPhases = (
 				C185817F1D8D7220001A9A00 /* Sources */,
 				C18581801D8D7220001A9A00 /* Frameworks */,
@@ -151,9 +152,9 @@
 			dependencies = (
 				C18581A31D8D7237001A9A00 /* PBXTargetDependency */,
 			);
-			name = TwicketSegmentedControlDemo;
+			name = AlphaCenturiesA;
 			productName = TwicketSegmentedControlDemo;
-			productReference = C18581831D8D7220001A9A00 /* TwicketSegmentedControlDemo.app */;
+			productReference = C18581831D8D7220001A9A00 /* AlphaCenturiesA.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C185819C1D8D7237001A9A00 /* TwicketSegmentedControl */ = {
@@ -197,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C185817E1D8D7220001A9A00 /* Build configuration list for PBXProject "TwicketSegmentedControlDemo" */;
+			buildConfigurationList = C185817E1D8D7220001A9A00 /* Build configuration list for PBXProject "AlphaCenturiesA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -210,7 +211,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C18581821D8D7220001A9A00 /* TwicketSegmentedControlDemo */,
+				C18581821D8D7220001A9A00 /* AlphaCenturiesA */,
 				C185819C1D8D7237001A9A00 /* TwicketSegmentedControl */,
 			);
 		};
@@ -241,7 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18581891D8D7220001A9A00 /* ViewController.swift in Sources */,
+				C18581891D8D7220001A9A00 /* AlphaCenturiesA.swift in Sources */,
 				C18581871D8D7220001A9A00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,7 +463,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C185817E1D8D7220001A9A00 /* Build configuration list for PBXProject "TwicketSegmentedControlDemo" */ = {
+		C185817E1D8D7220001A9A00 /* Build configuration list for PBXProject "AlphaCenturiesA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C18581931D8D7220001A9A00 /* Debug */,
@@ -471,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C18581951D8D7220001A9A00 /* Build configuration list for PBXNativeTarget "TwicketSegmentedControlDemo" */ = {
+		C18581951D8D7220001A9A00 /* Build configuration list for PBXNativeTarget "AlphaCenturiesA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C18581961D8D7220001A9A00 /* Debug */,

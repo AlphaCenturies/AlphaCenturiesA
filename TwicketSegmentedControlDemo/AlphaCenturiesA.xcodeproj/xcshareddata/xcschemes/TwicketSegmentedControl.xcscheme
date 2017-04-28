@@ -17,7 +17,7 @@
                BlueprintIdentifier = "C185819C1D8D7237001A9A00"
                BuildableName = "TwicketSegmentedControl.framework"
                BlueprintName = "TwicketSegmentedControl"
-               ReferencedContainer = "container:TwicketSegmentedControlDemo.xcodeproj">
+               ReferencedContainer = "container:AlphaCenturiesA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C18581821D8D7220001A9A00"
-            BuildableName = "TwicketSegmentedControlDemo.app"
-            BlueprintName = "TwicketSegmentedControlDemo"
-            ReferencedContainer = "container:TwicketSegmentedControlDemo.xcodeproj">
+            BuildableName = "AlphaCenturiesA.app"
+            BlueprintName = "AlphaCenturiesA"
+            ReferencedContainer = "container:AlphaCenturiesA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C18581821D8D7220001A9A00"
-            BuildableName = "TwicketSegmentedControlDemo.app"
-            BlueprintName = "TwicketSegmentedControlDemo"
-            ReferencedContainer = "container:TwicketSegmentedControlDemo.xcodeproj">
+            BuildableName = "AlphaCenturiesA.app"
+            BlueprintName = "AlphaCenturiesA"
+            ReferencedContainer = "container:AlphaCenturiesA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,7 +76,7 @@
             BlueprintIdentifier = "C185819C1D8D7237001A9A00"
             BuildableName = "TwicketSegmentedControl.framework"
             BlueprintName = "TwicketSegmentedControl"
-            ReferencedContainer = "container:TwicketSegmentedControlDemo.xcodeproj">
+            ReferencedContainer = "container:AlphaCenturiesA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
