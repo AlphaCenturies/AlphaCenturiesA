@@ -24,6 +24,7 @@ class AlphaCenturiesASchedule: UIViewController {
         
         
         
+        /******************Prepare for UI Same As AlphaCenturiesA********************/
         /******************twicket start********************/
         
         // The TwicketSegmentedControl
@@ -75,7 +76,8 @@ class AlphaCenturiesASchedule: UIViewController {
         
         NSLayoutConstraint.activate([segLeftC,segRightC,segBotC,segHeightC])
         
-
+        
+         /******************Same as AlphaCenturiesA End********************/
         
     }
     
@@ -83,6 +85,7 @@ class AlphaCenturiesASchedule: UIViewController {
     
     
     
+     /******************UI Same As AlphaCenturiesA********************/
     // detect rotation of the screen
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape {
@@ -95,6 +98,7 @@ class AlphaCenturiesASchedule: UIViewController {
         }
     }
     
+    /******************* End********************/
     
     
     
@@ -102,6 +106,7 @@ class AlphaCenturiesASchedule: UIViewController {
 
 
 
+/******************Prepare for tansistion********************/
 // do something while click on button of toggle
 extension AlphaCenturiesASchedule: TwicketSegmentedControlDelegate {
     func didSelect(_ segmentIndex: Int) {
@@ -112,5 +117,6 @@ extension AlphaCenturiesASchedule: TwicketSegmentedControlDelegate {
         }
 
     }
-
+    
+/*******************tansistion End********************/
 }

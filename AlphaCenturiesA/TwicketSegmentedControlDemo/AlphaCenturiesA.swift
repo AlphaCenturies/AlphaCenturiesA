@@ -83,7 +83,7 @@ class AlphaCenturiesA: UIViewController {
         
         
         
-        // set Constraints
+          /******************Set Constraints********************/
         
         let margin = view.layoutMarginsGuide
         
@@ -107,6 +107,7 @@ class AlphaCenturiesA: UIViewController {
         // Constraint map to the superview
         mapView.bindFrameToSuperviewBounds()
         
+          /******************Constraint End********************/
     }
     
     // End of viewdidload
