@@ -152,5 +152,8 @@ extension UIView {
 extension AlphaCenturiesA: TwicketSegmentedControlDelegate {
     func didSelect(_ segmentIndex: Int) {
         print("Selected index: \(segmentIndex)")
+        if(segmentIndex==1){
+            performSegue(withIdentifier: "SegueToSchedule", sender: self)
+        }
     }
 }

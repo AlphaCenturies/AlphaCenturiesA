@@ -22,15 +22,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="p01-Gd-cqa" kind="modal" identifier="SegueToSchedule" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="FV2-9E-nEu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="57" y="818"/>
         </scene>
-        <!--Apha CenturiesA Schedule-->
+        <!--Alpha CenturiesA Schedule-->
         <scene sceneID="hBc-Nx-mH5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vt4-NK-3JI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="p01-Gd-cqa" customClass="AphaCenturiesASchedule" customModule="AlphaCenturiesA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="p01-Gd-cqa" customClass="AlphaCenturiesASchedule" customModule="AlphaCenturiesA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Otk-wd-wtb"/>
                         <viewControllerLayoutGuide type="bottom" id="VLx-ye-NZW"/>
@@ -40,7 +43,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DQy-CX-7JW"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="modal" identifier="showTheMap" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="0xp-4W-hdf"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vt4-NK-3JI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="474" y="65"/>
         </scene>
