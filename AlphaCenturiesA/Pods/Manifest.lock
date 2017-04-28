@@ -1,4 +1,5 @@
 PODS:
+  - FoldingCell (2.0.5)
   - GoogleMaps (2.2.0):
     - GoogleMaps/Maps (= 2.2.0)
   - GoogleMaps/Base (2.2.0)
@@ -8,13 +9,15 @@ PODS:
     - GoogleMaps/Base (= 2.2.0)
 
 DEPENDENCIES:
+  - FoldingCell (~> 2.0.3)
   - GoogleMaps
   - GooglePlaces
 
 SPEC CHECKSUMS:
+  FoldingCell: fb189fc746e95b722a1debf8ef455006b70cae2e
   GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
   GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
 
-PODFILE CHECKSUM: 1344f622c94782a784948a346d0369c20a3e077c
+PODFILE CHECKSUM: 72b898be1916c62dcbbb1dd9e3c3204c9ce5c114
 
 COCOAPODS: 1.2.1

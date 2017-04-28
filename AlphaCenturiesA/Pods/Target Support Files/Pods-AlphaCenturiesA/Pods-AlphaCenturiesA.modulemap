@@ -1,0 +1,6 @@
+framework module Pods_AlphaCenturiesA {
+  umbrella header "Pods-AlphaCenturiesA-umbrella.h"
+
+  export *
+  module * { export * }
+}

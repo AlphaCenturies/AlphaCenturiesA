@@ -19,7 +19,7 @@
 		C18581AD1D8D7265001A9A00 /* UIViewShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581AA1D8D7265001A9A00 /* UIViewShadowExtension.swift */; };
 		C18581AE1D8D7265001A9A00 /* TwicketSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581AB1D8D7265001A9A00 /* TwicketSegmentedControl.swift */; };
 		C18581AF1D8D7265001A9A00 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581AC1D8D7265001A9A00 /* Palette.swift */; };
-		FF211836383503233D9D8C44 /* libPods-AlphaCenturiesA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E6751C5273807155EAD2BD /* libPods-AlphaCenturiesA.a */; };
+		DF661DB9A9650C38005BAAEA /* Pods_AlphaCenturiesA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23C2E7057B656D4ABAC20A7 /* Pods_AlphaCenturiesA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,7 @@
 		C18581AA1D8D7265001A9A00 /* UIViewShadowExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewShadowExtension.swift; sourceTree = "<group>"; };
 		C18581AB1D8D7265001A9A00 /* TwicketSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwicketSegmentedControl.swift; sourceTree = "<group>"; };
 		C18581AC1D8D7265001A9A00 /* Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
-		C7E6751C5273807155EAD2BD /* libPods-AlphaCenturiesA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlphaCenturiesA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C23C2E7057B656D4ABAC20A7 /* Pods_AlphaCenturiesA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlphaCenturiesA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18581A41D8D7237001A9A00 /* TwicketSegmentedControl.framework in Frameworks */,
-				FF211836383503233D9D8C44 /* libPods-AlphaCenturiesA.a in Frameworks */,
+				DF661DB9A9650C38005BAAEA /* Pods_AlphaCenturiesA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		961A0FDEB1F92DBDFDA018F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C7E6751C5273807155EAD2BD /* libPods-AlphaCenturiesA.a */,
+				C23C2E7057B656D4ABAC20A7 /* Pods_AlphaCenturiesA.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

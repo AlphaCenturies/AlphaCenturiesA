@@ -64,6 +64,8 @@ class AlphaCenturiesA: UIViewController {
         segmentedControl.setSegmentItems(titles)
         segmentedControl.delegate = self
         
+        //mannualy move the selection into index
+        segmentedControl.move(to: 0)
         
         // set transparence back ground
         segmentedControl.backgroundColor = UIColor.white.withAlphaComponent(0)
@@ -73,23 +75,35 @@ class AlphaCenturiesA: UIViewController {
         
         // Put constraint of segmenttedControl
         
-        let margin = view.layoutMarginsGuide
-        
-        segmentedControl.translatesAutoresizingMaskIntoConstraints = false
-        
-        let leftC = NSLayoutConstraint(item: segmentedControl, attribute: .leading, relatedBy: .equal, toItem: margin, attribute: .leading, multiplier: 1, constant: -8)
-        let rightC = NSLayoutConstraint(item: segmentedControl, attribute: .trailing, relatedBy: .equal, toItem: margin, attribute: .trailing, multiplier: 1, constant: 8)
-        let botC = NSLayoutConstraint(item: segmentedControl, attribute: .bottom, relatedBy: .equal, toItem: margin, attribute: .bottom, multiplier: 1, constant: -50)
-        let heightC = NSLayoutConstraint(item: segmentedControl, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 30)
-        
-        // Activate constraints
-        
-        NSLayoutConstraint.activate([leftC,rightC,botC,heightC])
+       
         
         /******************twicket end********************/
         
         
         
+        // set Constraints
+        
+        let margin = view.layoutMarginsGuide
+        
+        // set Map auto constraints as false
+        mapView.translatesAutoresizingMaskIntoConstraints = false
+        
+        // set the togglebar auto constraints as false
+        segmentedControl.translatesAutoresizingMaskIntoConstraints = false
+
+        
+        
+        let segLeftC = NSLayoutConstraint(item: segmentedControl, attribute: .leading, relatedBy: .equal, toItem: margin, attribute: .leading, multiplier: 1, constant: 0)
+        let segRightC = NSLayoutConstraint(item: segmentedControl, attribute: .trailing, relatedBy: .equal, toItem: margin, attribute: .trailing, multiplier: 1, constant: 0)
+        let segBotC = NSLayoutConstraint(item: segmentedControl, attribute: .bottom, relatedBy: .equal, toItem: margin, attribute: .bottom, multiplier: 1, constant: -50)
+        let segHeightC = NSLayoutConstraint(item: segmentedControl, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1, constant: 30)
+        
+        // Activate constraints
+        
+        NSLayoutConstraint.activate([segLeftC,segRightC,segBotC,segHeightC])
+        
+        // Constraint map to the superview
+        mapView.bindFrameToSuperviewBounds()
         
     }
     
@@ -113,6 +127,25 @@ class AlphaCenturiesA: UIViewController {
     
 }
 
+// offer automatically constrait
+extension UIView {
+    
+    /// Adds constraints to this `UIView` instances `superview` object to make sure this always has the same size as the superview.
+    /// Please note that this has no effect if its `superview` is `nil` – add this `UIView` instance as a subview before calling this.
+    func bindFrameToSuperviewBounds() {
+        guard let superview = self.superview else {
+            print("Error! `superview` was nil – call `addSubview(view: UIView)` before calling `bindFrameToSuperviewBounds()` to fix this.")
+            return
+        }
+        
+        self.translatesAutoresizingMaskIntoConstraints = false
+        superview.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[subview]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: ["subview": self]))
+        superview.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-0-[subview]-0-|", options: .directionLeadingToTrailing, metrics: nil, views: ["subview": self]))
+    }
+}
+
+
+// do something while click on button of toggle
 extension AlphaCenturiesA: TwicketSegmentedControlDelegate {
     func didSelect(_ segmentIndex: Int) {
         print("Selected index: \(segmentIndex)")

@@ -2,4 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'AlphaCenturiesA' do
 pod 'GoogleMaps'
 pod 'GooglePlaces'
+
+pod 'FoldingCell', '~> 2.0.3' 
+use_frameworks!
 end
