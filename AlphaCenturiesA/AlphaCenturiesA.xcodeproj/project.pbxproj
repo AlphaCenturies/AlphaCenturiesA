@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8604FD981EB3033A00876BA9 /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8604FD971EB3033A00876BA9 /* podfile */; };
 		8628DA321EB3FDC80073D9D8 /* AlphaCenturiesAPerfect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8628DA311EB3FDC80073D9D8 /* AlphaCenturiesAPerfect.swift */; };
+		8628DA341EB467B60073D9D8 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 8628DA331EB467B60073D9D8 /* style.json */; };
 		868A58131EB3C857007D0AC1 /* AphaCenturiesASchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868A58121EB3C857007D0AC1 /* AphaCenturiesASchedule.swift */; };
 		86F4171A1EB3A4BF006C1255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F417181EB3A4BF006C1255 /* Main.storyboard */; };
 		C18581871D8D7220001A9A00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18581861D8D7220001A9A00 /* AppDelegate.swift */; };
@@ -52,6 +53,7 @@
 		3BE5035570F9A875D27D9E96 /* Pods-AlphaCenturiesA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaCenturiesA.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaCenturiesA/Pods-AlphaCenturiesA.release.xcconfig"; sourceTree = "<group>"; };
 		8604FD971EB3033A00876BA9 /* podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8628DA311EB3FDC80073D9D8 /* AlphaCenturiesAPerfect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlphaCenturiesAPerfect.swift; path = ../AlphaCenturiesAPerfect.swift; sourceTree = "<group>"; };
+		8628DA331EB467B60073D9D8 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
 		868A58121EB3C857007D0AC1 /* AphaCenturiesASchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AphaCenturiesASchedule.swift; sourceTree = "<group>"; };
 		86F417191EB3A4BF006C1255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		965D8FD0BA03987AFE584A23 /* Pods-AlphaCenturiesA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlphaCenturiesA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlphaCenturiesA/Pods-AlphaCenturiesA.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		C185817A1D8D7220001A9A00 = {
 			isa = PBXGroup;
 			children = (
+				8628DA331EB467B60073D9D8 /* style.json */,
 				8604FD971EB3033A00876BA9 /* podfile */,
 				C18581851D8D7220001A9A00 /* AlphaCenturiesA */,
 				C185819E1D8D7237001A9A00 /* TwicketSegmentedControl */,
@@ -261,6 +264,7 @@
 				C18581911D8D7220001A9A00 /* LaunchScreen.storyboard in Resources */,
 				C185818E1D8D7220001A9A00 /* Assets.xcassets in Resources */,
 				8604FD981EB3033A00876BA9 /* podfile in Resources */,
+				8628DA341EB467B60073D9D8 /* style.json in Resources */,
 				86F4171A1EB3A4BF006C1255 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
