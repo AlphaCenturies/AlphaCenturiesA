@@ -17,13 +17,6 @@ class AlphaCenturiesASchedule: UIViewController {
         
         
         
-        
-        
-        
-        
-        
-        
-        
         /******************Prepare for UI Same As AlphaCenturiesA********************/
         /******************twicket start********************/
         
