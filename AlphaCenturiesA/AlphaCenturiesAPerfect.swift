@@ -16,14 +16,6 @@ class AlphaCenturiesAPerfect: UIViewController {
         super.viewDidLoad()
         
         
-        
-        
-        
-        
-        
-        
-        
-        
         /******************Prepare for UI Same As AlphaCenturiesA********************/
         /******************twicket start********************/
         
@@ -99,8 +91,6 @@ class AlphaCenturiesAPerfect: UIViewController {
     }
     
     /******************* End********************/
-    
-    
     
 }
 

@@ -122,6 +122,14 @@ class AlphaCenturiesA: UIViewController {
         mapView.bindFrameToSuperviewBounds()
         
           /******************Constraint End********************/
+        
+  
+        // test for multi-thread here
+        
+        
+        
+        // test multi-thread end
+        
     }
     
     // End of viewdidload
@@ -144,6 +152,8 @@ class AlphaCenturiesA: UIViewController {
     
     
 }
+
+
 
 // offer automatically constrait
 extension UIView {
@@ -174,3 +184,11 @@ extension AlphaCenturiesA: TwicketSegmentedControlDelegate {
         }
     }
 }
+
+
+
+// test multi-thread
+
+
+
+// test multi-thread end

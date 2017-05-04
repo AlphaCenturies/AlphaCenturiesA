@@ -22,10 +22,11 @@ class AlphaCenturiesASchedule: UIViewController {
         
         // The TwicketSegmentedControl
         let titles = ["First", "Second", "Third"]
-        let frame = CGRect(x: 5, y: view.frame.height-90, width: view.frame.width - 10, height: 40)
-        // set frame
         
-        // set position
+        // set frame
+        let frame = CGRect(x: 5, y: view.frame.height-90, width: view.frame.width - 10, height: 40) // set position
+        
+        
         
         let segmentedControl = TwicketSegmentedControl(frame: frame)
         // initial the twicketSegment in the frame
